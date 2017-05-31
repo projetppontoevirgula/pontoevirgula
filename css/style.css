@@ -19,7 +19,7 @@ header#inicioSite{
 h1 {
     font-size: 2em;
 	width:60%;
-	float:left;
+	float:left;x
 }
 h1 a {
     text-decoration: none;
@@ -27,6 +27,7 @@ h1 a {
     display: inline;
 }
 h1 span {
+	width: 50px;
     color: white;
     margin:20px;
     border-radius: 5px;
@@ -37,7 +38,7 @@ nav {
     width: 30%;
     border-radius: 4px;
 	text-align:center;
-    max-height: 2em;
+    max-height: 3em;
     overflow: hidden;
     transition: max-height 0.5s;
 }
@@ -50,7 +51,7 @@ nav:active, nav:focus, nav:hover {
     cursor: pointer;
 }
 
-nav h2 { color: white; }
+nav h2 { color: white; font-size: 60px; }
 
 nav ul {
     list-style: none;
@@ -61,7 +62,7 @@ nav a, nav a:visited {
     text-decoration: none;
     font-weight: bold; color: white;
     display: block;
-    line-height: 2em;
+    line-height: 3em;
 }
 
 nav a:hover, nav a:focus { background-color: black; }
@@ -81,9 +82,19 @@ display:inline;
 	padding-top:20px;
 	padding-bottom:20px;
 }
+#wallpaper{
+	background-image: url(../images/office1.jpg);
+	background-repeat: no-repeat;
+	/*clear: both;*/
+	height: 300px;
+    padding: 150px 0;
+    box-sizing: border-box;
+}
+
 .portaD{
 	text-align:center;
 	color:#fff;
+	margin-top: 
 	padding-top:20px;
 	margin-left:10px;
 }
@@ -97,17 +108,48 @@ display:inline;
 #segundo{
 	
 	width:50%;
-	display:flex;float:left;
+	display:flex;
+	float:left;
 	}
 
 #tt{
-	margin-top:80px;
+	
 	background-color:rgba(177,176,176,1.00);
 	clear:both;
 }	
 	figure{width:100% }
 
+
+
+.destaques .bloco{
+	width: 50%;
+	margin: auto;
+}
+
+
+*/
 @media screen and (min-width: 695px){
+	.destaques{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+	.conjunto-blocos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;	
+}
+
+.conjunto-blocos .box{
+	width: 50%;
+	display: inline-block;
+}
+
+.conjunto-blocos .box-full{
+	width: 100%;
+	display: inline-block;
+}
 	
 	 h1{
 			
@@ -130,7 +172,7 @@ display:inline;
 		display:inline-block;
 		padding:0 10px;
 	}
-	#teste{width:60%;margin:auto}
+	#teste{width:80%;margin:auto}
 	figure{margin:auto; }
 }
 @media screen and (min-width: 900px){
@@ -150,4 +192,4 @@ display:inline;
 
 @media screen and (min-width: 1100px){
 	
-}
+}*/
